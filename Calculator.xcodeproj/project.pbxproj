@@ -15,6 +15,7 @@
 		86BA5D4A26EA55F3001D52E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BA5D4826EA55F3001D52E8 /* LaunchScreen.storyboard */; };
 		86BA5D5526EA55F3001D52E8 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA5D5426EA55F3001D52E8 /* CalculatorTests.swift */; };
 		86BA5D6026EA55F3001D52E8 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA5D5F26EA55F3001D52E8 /* CalculatorUITests.swift */; };
+		86BA5D7C26EA6501001D52E8 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BA5D7B26EA6501001D52E8 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		86BA5D5B26EA55F3001D52E8 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BA5D5F26EA55F3001D52E8 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		86BA5D6126EA55F3001D52E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86BA5D7B26EA6501001D52E8 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				86BA5D4626EA55F3001D52E8 /* Assets.xcassets */,
 				86BA5D4826EA55F3001D52E8 /* LaunchScreen.storyboard */,
 				86BA5D4B26EA55F3001D52E8 /* Info.plist */,
+				86BA5D7B26EA6501001D52E8 /* CircleButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				86BA5D4226EA55EC001D52E8 /* ViewController.swift in Sources */,
 				86BA5D3E26EA55EC001D52E8 /* AppDelegate.swift in Sources */,
 				86BA5D4026EA55EC001D52E8 /* SceneDelegate.swift in Sources */,
+				86BA5D7C26EA6501001D52E8 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDDW23M459;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDDW23M459;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
