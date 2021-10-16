@@ -1,7 +1,7 @@
 # Calculator
 
-# Summary
+## Summary
 It is a clone of iOS Calculator App
 
-# Usage
+## Usage
 $ git clone git@github.com:Moto0124/Calculator.git
